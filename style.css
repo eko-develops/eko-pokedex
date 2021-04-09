@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #1b1b1b;
+
+    display:flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.pokedex-title{
+    color:white;
+}
+
+.main-wrapper{
+    width: 500px;
+    text-align: center;
+    background-color:teal;
+    border-radius: 1rem;
+}
+
+.pokedex-container{
+    background-color:white;
+    padding: 1rem;
+    
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+input[type="text"]{
+    border: 1px black solid;
+    padding: 0.3rem;
+}
+
+span{
+    display: block;
+}
+
+form{
+    padding-bottom: 1rem;
+}

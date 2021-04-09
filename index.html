@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EKO Pokedex App</title>
+
+    <!-- Remove console error missing favicon -->
+    <link rel="shortcut icon" href="#">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main-wrapper">
+        <h1 class='pokedex-title'>EKO Pokedex</h1>
+        <div class='pokedex-container'>
+            <form id='form' action='/search'>
+                <label for='poke-search'>Enter a Pokemon</label>
+                <input type='text' id='poke-search' name='poke-search' placeholder='search a pokemon'>
+                <button type='submit' id='submit-search'>Search</button>
+            </form>
+        </div>
+    </div>
+
+    
+
+    <!-- Custom Scripts -->
+    <script src='app.js'></script>
+</body>
+
+</html>
